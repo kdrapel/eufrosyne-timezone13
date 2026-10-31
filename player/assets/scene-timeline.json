@@ -1,0 +1,202 @@
+{
+  "scope": "Recovered demo-wide timing and scene dispatch (Step 08). Visual production code exists only for translated scenes.",
+  "origin": "capture attachment of session oracle/extract/2026-10-25_20-30-15",
+  "duration": 245.84859,
+  "refresh_hz": 70.08630289532294,
+  "module_switch_s": 228,
+  "modules": {
+    "aumax.s3m": {
+      "rows_per_second": 9.590148398717394,
+      "intercept_rows": 9.562016394698539,
+      "start_s": 0.0,
+      "end_s": 228,
+      "fit_rms_rows": 0.3455440200253453,
+      "fit_samples": 228
+    },
+    "pilips.s3m": {
+      "rows_per_second": 9.596491228070175,
+      "intercept_rows": -2185.1812865497072,
+      "start_s": 228,
+      "end_s": 245.84859,
+      "fit_rms_rows": 0.2780700217068881,
+      "fit_samples": 18
+    }
+  },
+  "scenes": [
+    {
+      "key": "S1",
+      "ledger_phases": [
+        "P01"
+      ],
+      "player_symbol": "sub_17A760",
+      "entry": 1550176,
+      "module": "aumax.s3m",
+      "threshold": {
+        "order": 2,
+        "row": 12
+      },
+      "start_s": 0.0,
+      "exit_s": 13.601248,
+      "ended_by": "threshold",
+      "translated": true
+    },
+    {
+      "key": "S2",
+      "ledger_phases": [
+        "P02"
+      ],
+      "player_symbol": "sub_173B90",
+      "entry": 1522576,
+      "module": "aumax.s3m",
+      "threshold": {
+        "order": 8,
+        "row": 0
+      },
+      "start_s": 13.601248,
+      "exit_s": 52.391054,
+      "ended_by": "threshold",
+      "translated": true
+    },
+    {
+      "key": "S3",
+      "ledger_phases": [
+        "P03"
+      ],
+      "player_symbol": "sub_178E10",
+      "entry": 1543696,
+      "module": "aumax.s3m",
+      "threshold": {
+        "order": 12,
+        "row": 0
+      },
+      "start_s": 52.391054,
+      "exit_s": 79.085114,
+      "ended_by": "threshold",
+      "translated": true
+    },
+    {
+      "key": "S4",
+      "ledger_phases": [
+        "P04"
+      ],
+      "player_symbol": "sub_1739B0",
+      "entry": 1522096,
+      "module": "aumax.s3m",
+      "threshold": {
+        "order": 16,
+        "row": 0
+      },
+      "start_s": 79.085114,
+      "exit_s": 105.779175,
+      "ended_by": "threshold",
+      "translated": true
+    },
+    {
+      "key": "S5",
+      "ledger_phases": [
+        "P05"
+      ],
+      "player_symbol": "sub_179250",
+      "entry": 1544784,
+      "module": "aumax.s3m",
+      "threshold": {
+        "order": 20,
+        "row": 0
+      },
+      "start_s": 105.779175,
+      "exit_s": 132.473235,
+      "ended_by": "threshold",
+      "translated": true
+    },
+    {
+      "key": "S6",
+      "ledger_phases": [
+        "P06"
+      ],
+      "player_symbol": "sub_173650",
+      "entry": 1521232,
+      "module": "aumax.s3m",
+      "threshold": {
+        "order": 26,
+        "row": 0
+      },
+      "start_s": 132.473235,
+      "exit_s": 172.514326,
+      "ended_by": "threshold",
+      "translated": true
+    },
+    {
+      "key": "S7",
+      "ledger_phases": [
+        "P07"
+      ],
+      "player_symbol": "sub_179530",
+      "entry": 1545520,
+      "module": "aumax.s3m",
+      "threshold": {
+        "order": 30,
+        "row": 32
+      },
+      "start_s": 172.514326,
+      "exit_s": 202.545144,
+      "ended_by": "threshold",
+      "translated": true
+    },
+    {
+      "key": "S8",
+      "ledger_phases": [
+        "P08"
+      ],
+      "player_symbol": "sub_173E90",
+      "entry": 1523344,
+      "module": "aumax.s3m",
+      "threshold": {
+        "order": 34,
+        "row": 16
+      },
+      "start_s": 202.545144,
+      "exit_s": 227.570825,
+      "ended_by": "threshold",
+      "translated": true
+    },
+    {
+      "key": "S9",
+      "ledger_phases": [
+        "P09",
+        "P10"
+      ],
+      "player_symbol": "sub_17A7F0",
+      "entry": 1550320,
+      "module": "pilips.s3m",
+      "threshold": {
+        "order": 4,
+        "row": 16
+      },
+      "start_s": 228,
+      "exit_s": 245.84859,
+      "ended_by": "process_exit_before_threshold",
+      "translated": true
+    }
+  ],
+  "translated_scenes": [
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "S7",
+    "S8",
+    "S9"
+  ],
+  "pending_scenes": [],
+  "limitations": [
+    "Rows/second is fitted to one-per-second captures; sub-second row phase is interpolated, not measured.",
+    "The clock is replaceable: Step 09 original replay must become the master time source via SimulationClock.setTimeSource().",
+    "Music-driven scene exits are preserved as (order,row) thresholds; audible replay is not implemented.",
+    "S9 ends by process exit before its (order 4, row 16) threshold.",
+    "Scene setup after a threshold delays visible output by up to ~2.5 s; per-scene draw timing is not yet modelled.",
+    "Original CPU core/cycles were 'other'/'auto'; no instruction-boundary or hardware-tempo guarantee follows.",
+    "Seeking into a scene starts it from its entry frame; accumulated mid-scene motion state is not replayed."
+  ]
+}

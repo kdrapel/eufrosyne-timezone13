@@ -1,0 +1,24 @@
+{
+ "provenance": "Values produced by original sub_179100 during dispatcher setup, read from verified capture memory (not a rendered frame).",
+ "source_session": "oracle/extract/2026-10-25_20-30-15",
+ "source_capture": "capture_000053",
+ "sha256": "1dfc0b7f8e10952151f0ecb3609fe6ffe772ba93cc3c6848778f7e949d47673c",
+ "ranges": [
+  {
+   "address": 2351888,
+   "length": 1280,
+   "symbol": "off_23E310"
+  },
+  {
+   "address": 2345488,
+   "length": 6400,
+   "symbol": "off_23CA10"
+  },
+  {
+   "address": 2353168,
+   "length": 6400,
+   "symbol": "off_23E810"
+  }
+ ],
+ "stability": "identical at captures 52,53,80,105,134,173,202,228"
+}

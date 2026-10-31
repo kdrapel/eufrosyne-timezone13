@@ -1,0 +1,30 @@
+:root{color-scheme:dark;--bg:#090714;--panel:#17112c;--line:#443762;--ink:#e6def8;--muted:#afa0c8;--cyan:#c0a2f4}*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 20% 0%,#35235480,transparent 50%),var(--bg);color:var(--ink);font:15px/1.7 system-ui,sans-serif}main{max-width:1240px;margin:auto;padding:40px 24px 100px}a{color:var(--cyan)}a:hover{color:white}.explanation-nav{display:flex;gap:24px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding:14px 0;margin-bottom:30px;font-size:13px}.home{margin-right:auto}[aria-current=page]{text-decoration:underline;text-underline-offset:6px}.eyebrow,.tag,code,pre{font-family:ui-monospace,Consolas,monospace}.eyebrow{text-transform:uppercase;letter-spacing:.08em;color:var(--cyan);font-size:13px}h1{font-size:clamp(34px,5.2vw,60px);line-height:1.05;letter-spacing:-.05em;margin:12px 0 20px}h1 .accent{color:var(--cyan)}.lead{max-width:900px;font-size:18px;color:#c2d0db}.meta{display:flex;gap:10px;flex-wrap:wrap;margin:24px 0 32px}.tag{border:1px solid var(--line);border-radius:99px;padding:6px 14px;font-size:12px}.layout{display:grid;grid-template-columns:1.22fr .98fr;gap:22px;margin:24px 0}.card{min-width:0;background:linear-gradient(145deg,#211631,#100b1e);border:1px solid var(--line);border-radius:16px;padding:24px;box-shadow:0 20px 60px #0005}.card h2{font-size:21px;margin:0 0 12px}.sub,figcaption{color:var(--muted);font-size:13px}.screen-container{background:#03070b;padding:12px;border:1px solid var(--line);border-radius:12px}canvas{display:block;width:100%;height:auto;image-rendering:pixelated}label{display:block;margin:12px 0}input[type=range]{width:100%;accent-color:#c0a2f4}button,select{background:#2d2045;color:var(--ink);border:1px solid #70568d;border-radius:6px;padding:8px 12px;font:inherit}button{cursor:pointer}pre{overflow:auto;background:#070c12;padding:16px;border-radius:8px;font-size:13px}.review-note{border-left:3px solid #a477d1;padding:12px 18px;color:var(--muted)}.flow-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.flow-grid div{padding:16px;background:#211631;border:1px solid var(--line);border-radius:10px}.flow-grid b{display:block;color:var(--cyan)}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid white;outline-offset:4px}@media(max-width:800px){.layout{grid-template-columns:1fr}.flow-grid{grid-template-columns:1fr 1fr}main{padding:20px 14px 60px}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
+
+.toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center}.toolbar label{margin:0}.pair{display:grid;grid-template-columns:1fr 1fr;gap:14px}.pair canvas{width:100%}.readout{display:block;white-space:pre-wrap;font:12px/1.7 ui-monospace,monospace;color:var(--cyan);padding:12px;background:#090614;border:1px solid var(--line);border-radius:8px;margin:12px 0}canvas{touch-action:none}button[aria-pressed=true]{background:#624388}input{font:inherit}h3{font-size:15px}#error{color:#ffbeca}section[id]{scroll-margin-top:15px}.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:12px}.legend span{border-left:3px solid var(--cyan);padding-left:8px}@media(max-width:600px){.pair{grid-template-columns:1fr}}
+
+
+/* Keep native images at useful integer multiples; never stretch to window size. */
+main{max-width:none;width:100%;margin:0;padding:24px 28px 64px}
+h1{font-size:clamp(32px,3vw,48px)}.lead{max-width:100ch;font-size:16px}.meta{margin:16px 0 24px}
+.card{padding:20px;border-radius:10px}.card p{max-width:110ch}
+#source .pair{grid-template-columns:repeat(2,minmax(0,256px));justify-content:start;gap:20px}
+#source .pair canvas{width:100%;max-width:256px}#source>label{max-width:600px}#source .readout{max-width:600px}
+#build,#wrap{grid-template-columns:minmax(0,1fr);gap:16px}
+#build>section:nth-child(2),#wrap>section:nth-child(2){max-width:none;display:block}
+#build>section:nth-child(2) pre,#wrap>section:nth-child(2) pre{max-width:800px}
+.voxel-workbench{display:grid;grid-template-columns:minmax(0,512px) minmax(0,538px);gap:28px;align-items:center;justify-content:start}
+.live-maps{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-self:center}
+.live-maps h3,.voxel-workbench h3{font-size:13px;line-height:1.4;margin:0 0 10px}
+.live-maps canvas{width:100%;max-width:256px;border:1px solid #725aab;aspect-ratio:1}
+.voxel-workbench>div:last-child{width:100%;max-width:538px}#buffer{width:100%;max-width:512px}
+.voxel-controls{max-width:1078px;display:grid;grid-template-columns:1fr 1fr;gap:0 28px;margin-top:14px}
+.voxel-controls .toolbar{grid-column:1/-1}.voxel-controls label{font-size:13px;margin:8px 0}
+.voxel-controls button{padding:7px 11px;font-size:13px}
+#span-info{max-width:1078px}#profile{max-width:512px}#tunnel,#scene-view{max-width:640px}
+#wrap>section:first-child>.screen-container,#scene>.screen-container{width:fit-content;max-width:100%}
+#wrap>section:first-child>.screen-container{width:min(666px,100%)}#scene>.screen-container{width:min(666px,100%)}
+#wrap>section:first-child>label,#pixel-info{max-width:666px}
+@media(min-width:1500px){#build,#wrap{grid-template-columns:minmax(0,1100px) minmax(320px,1fr)}}
+@media(max-width:800px){main{padding:18px 14px 48px}.voxel-workbench{grid-template-columns:minmax(0,1fr) minmax(0,1.25fr);gap:16px}.card{padding:16px}.live-maps{gap:8px}.live-maps h3{font-size:11px}}
+@media(max-width:560px){.voxel-workbench{grid-template-columns:1fr}.live-maps{grid-template-columns:repeat(2,minmax(0,144px));justify-content:center}.voxel-workbench>div:last-child{max-width:100%}.voxel-controls{grid-template-columns:1fr;gap:0}.voxel-controls .toolbar{grid-column:auto}.toolbar{gap:6px}button{font-size:13px}#source .pair{grid-template-columns:1fr 1fr;gap:12px}}
+.buffer-view{position:relative;margin:5px 0}.column-arrow{position:absolute;width:0;height:0;transform:translateX(-50%);pointer-events:none;border-left:4px solid transparent;border-right:4px solid transparent}.column-arrow.top{bottom:calc(100% + 2px);border-top:6px solid #79e5e3}.column-arrow.bottom{top:calc(100% + 2px);border-bottom:6px solid #79e5e3}.column-arrow[hidden]{display:none}

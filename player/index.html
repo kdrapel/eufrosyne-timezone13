@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Timezone +13:00 by Eufrosyne. Original graphics and music translated to JavaScript.">
+  <title>Timezone +13:00 — Eufrosyne</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="release-theme.css">
+</head>
+<body>
+  <main id="shell">
+    <canvas id="screen" width="640" height="400" aria-label="Timezone +13:00"></canvas>
+    <section id="gate" aria-label="Timezone +13:00">
+      <canvas id="background" width="320" height="200" aria-hidden="true"></canvas>
+      <div class="shade" aria-hidden="true"></div>
+      <div class="gate-content">
+        <h1><span id="demo-title">Timezone +13:00</span></h1>
+        <p class="group" id="demo-group">Eufrosyne</p>
+        <p class="meta" id="demo-meta">Timezone +13:00 · DOS demo - Juhla 1997 - 3rd rank PC demo · JavaScript port</p>
+        <dl class="credits" id="demo-credits">
+          <div><dt>Code</dt><dd>Sukho</dd></div>
+          <div><dt>Graphics</dt><dd>Duke</dd></div>
+          <div><dt>Music</dt><dd>Dune / Orange</dd></div>
+        </dl>
+        <button id="start" class="start" type="button" disabled>Preparing<span class="dots" aria-hidden="true"></span></button>
+      </div>
+      <footer>
+        <nav aria-label="Production links"><a href="https://www.pouet.net/prod.php?which=319" target="_blank" rel="noopener noreferrer">Pouët</a><a href="https://github.com/kdrapel/eufrosyne-timezone13" target="_blank" rel="noopener noreferrer">GitHub</a></nav>
+        <p><kbd>space</kbd> pause · <kbd>← →</kbd> seek · <kbd>f</kbd> fullscreen · <kbd>esc</kbd> stop</p>
+		
+ 
+		
+
+	   
+      <p class="effect-links">Effects explained: <a href="../effects-explained/voxel-tunnel.html">Voxel tunnel &amp; spiky object</a></p>
+      </footer>
+    </section>
+    <div id="hud" hidden>
+      <button id="pause" type="button" aria-label="Pause demo">Pause</button>
+      <button id="stop" type="button">Stop</button>
+      <button id="backward" type="button" aria-label="Back 15 seconds">−15s</button><button id="forward" type="button" aria-label="Forward 15 seconds">+15s</button>
+      <input list="seek-marks" id="timeline" type="range" min="0" max="245" step="0.1" value="0" aria-label="Seek demo">
+      <datalist id="seek-marks"><option value="0"></option><option value="15"></option><option value="30"></option><option value="45"></option><option value="60"></option><option value="75"></option><option value="90"></option><option value="105"></option><option value="120"></option><option value="135"></option><option value="150"></option><option value="165"></option><option value="180"></option><option value="195"></option><option value="210"></option><option value="225"></option><option value="240"></option><option value="245"></option></datalist>
+      <output id="time">0:00 / 4:05</output>
+      <button id="fullscreen" type="button">Fullscreen</button>
+      <label class="stats-switch"><input id="stats-toggle" type="checkbox" role="switch" aria-controls="stats">Stats for nerds</label>
+      <label>Scale <select id="scale" aria-label="Display scale"><option value="1">1x</option><option value="0.5">0.5x</option></select></label>
+      <label>Volume <input id="volume" type="range" min="0" max="1" step="0.01" value="0.7"></label>
+    </div>
+    <div id="loading" hidden role="status" aria-live="polite"><span>Loading…</span></div>
+    <section id="nerd-panel" hidden aria-label="Stats and live module tracker">
+      <output id="stats" aria-label="Displayed frames per second">FPS: —</output>
+      <div id="player-details"></div><div id="tracker-title">Original-code audio diagnostics</div>
+      <div class="tracker-scroll"><canvas id="tracker" width="608" height="208" aria-label="Original sound diagnostics"></canvas></div>
+    </section>
+    <p id="status" role="status" aria-live="polite"></p>
+  </main>
+  <script type="module" src="app/app.mjs"></script>
+<script type="module" src="app/release-controls.mjs"></script>
+</body>
+</html>

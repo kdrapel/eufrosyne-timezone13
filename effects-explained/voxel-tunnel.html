@@ -1,0 +1,58 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Timezone +13:00 — Inside the voxel tunnel</title><link rel="stylesheet" href="theme.css"><link rel="icon" href="data:,"></head><body><main>
+<nav class="explanation-nav" aria-label="Effects explained"><a class="home" href="../index.html">← Timezone +13:00 player</a><a href="#source">1. Source maps</a><a href="#build">2. Build columns</a><a href="#wrap">3. Make a tunnel</a><a href="#scene">4. Add the object</a></nav>
+<div class="eyebrow">Eufrosyne / Effects explained / Red spiky object, 0:53–1:18</div>
+<h1>A landscape in a buffer.<br><span class="accent">A tunnel made from columns.</span></h1>
+<p class="lead">Build the voxel image one column at a time. Then watch the same bytes wrap into a tunnel around the screen center. The height map, texture, palette and lookup tables come from the original demo; the spiky object is a separate polygon layer.</p>
+<div class="meta"><span class="tag">256 × 200 working image</span><span class="tag">97 samples per column</span><span class="tag">Indexed color</span><span class="tag">Original data, live computation</span></div>
+<p id="error" role="status">Loading original demo resources…</p>
+<section class="card" id="source"><h2>1. Two maps describe the surface</h2><p>This is a height-field voxel effect, not a solid cube of 3D cells. For each of the 256 × 256 map locations, one byte says <em>how high</em> the surface is; a second byte chooses its color. The executable loads both maps from <code>TZ1300.DAT</code>. It builds the visible voxel image from them every frame.</p>
+<div class="pair"><div><h3>Height: dark = low, white = high</h3><canvas id="height" width="256" height="256" aria-label="Original 256 by 256 height map"></canvas></div><div><h3>Texture: original palette colors</h3><canvas id="texture" width="256" height="256" aria-label="Original voxel texture"></canvas></div></div>
+<p class="sub">The crosshair marks the current sample. A column chooses one map row; increasing depth walks across that row. The frame counter scrolls the starting coordinate, wrapping at 256.</p>
+<label>Original frame counter <output id="counter-value"></output><input id="counter" type="range" min="3751" max="5500" value="4353" step="1"></label>
+<output id="source-info" class="readout"></output></section>
+<div class="layout" id="build"><section class="card"><h2>2. Write the voxel buffer</h2><p>This is the actual indexed-color buffer layout: 256 columns, 200 rows. Empty space starts at palette index 0. The small blue arrows above and below the buffer mark the column being constructed. They move when you advance a column; advancing depth fills pixels within that column.</p>
+<div class="voxel-workbench"><div class="live-maps" aria-label="Live source samples beside the voxel buffer"><div><h3>Height map · current sample</h3><canvas id="height-live" width="256" height="256" aria-label="Live height map sample beside construction controls"></canvas></div><div><h3>Texture · same sample</h3><canvas id="texture-live" width="256" height="256" aria-label="Live texture sample beside construction controls"></canvas></div></div><div><h3>Voxel buffer · visible spans</h3><div class="screen-container"><div class="buffer-view"><span id="column-top" class="column-arrow top" aria-hidden="true"></span><canvas id="buffer" width="256" height="200" aria-label="Live voxel working buffer, constructed column by column"></canvas><span id="column-bottom" class="column-arrow bottom" aria-hidden="true"></span></div></div></div></div>
+<div class="voxel-controls"><label>Completed columns <output id="columns-value"></output><input id="columns" type="range" min="0" max="256" value="0" step="1"></label>
+<label>Depth samples in the next column <output id="depth-value"></output><input id="depth" type="range" min="0" max="97" value="0" step="1"></label>
+<div class="toolbar"><button id="next-depth">Next depth sample</button><button id="next-column">Next column</button><button id="play-columns" aria-pressed="false">Build automatically</button><button id="clear">Clear buffer</button><button id="complete">Complete buffer</button></div>
+</div>
+<output id="span-info" class="readout"></output><p class="sub">Move either slider backwards to inspect an earlier construction stage. No screenshots or saved frames are used.</p></section>
+<section class="card"><h2>Why a sample becomes a vertical span</h2><p>For each column, the routine walks from near to far through depth samples 0–96. A lookup table converts height and depth into a vertical coordinate:</p>
+<pre>source = column × 256 + ((counter + depth) &amp; 255)
+height = heightMap[source]
+color  = texture[source]
+
+projectedY = max(0,
+  trunc(height × 32 / (depth + 1)) − 10)</pre>
+<p>The write cursor begins at row 199. If a new sample projects above it, the renderer fills the gap upwards with that sample's color. Otherwise the sample is hidden and writes nothing. The cursor never moves back down: a later sample cannot overwrite nearer visible spans.</p>
+<div class="screen-container"><canvas id="profile" width="512" height="240" aria-label="Selected column depth samples and visible horizon"></canvas></div><div class="legend"><span>Lavender: projected sample Y</span><span style="border-color:#79cbd5">Blue: remaining write cursor</span></div>
+<p class="sub">The plot isolates the selected column. Values outside 0–199 are clipped in this diagram; the buffer and original integer calculations are unchanged.</p>
+<pre>top = 199
+for each depth sample:
+  while projectedY &lt; top and top ≥ 0:
+    buffer[top × 256 + column] = color
+    top -= 1</pre></section></div>
+<div class="layout" id="wrap"><section class="card"><h2>3. Turn the strip into a tunnel</h2><p>The voxel buffer is not perspective-warped with triangles. Every screen pixel looks up its <strong>distance</strong> and <strong>angle</strong> from the center. Distance selects a row of the voxel image; angle selects a column. Straight columns become radial spokes, and horizontal rows become rings.</p>
+<div class="screen-container"><canvas id="tunnel" width="320" height="200" aria-label="Tunnel generated from the current voxel buffer"></canvas></div>
+<label>Screen rows mapped <output id="rows-value"></output><input id="rows" type="range" min="0" max="200" value="200" step="1"></label>
+<div class="toolbar"><button id="next-row">Map next row</button><button id="play-rows" aria-pressed="false">Map automatically</button><button id="reset-rows">Clear mapping</button><button id="all-rows">Map all rows</button></div>
+<label>Inspect mapping <select id="mapping-view"><option value="color">Original texture + palette</option><option value="angle">Angle lookup (diagnostic colors)</option><option value="radius">Radius lookup (grayscale)</option></select></label>
+<output id="pixel-info" class="readout"></output><p class="sub">Point at or touch the tunnel to trace a pixel back into the voxel buffer. A small pink square on the voxel buffer marks its exact source byte while you inspect the tunnel. Diagnostic views show lookup coordinates, not production colors.</p></section>
+<section class="card"><h2>One screen pixel, one buffer byte</h2><pre>dx = x − 160; dy = y − 100
+radius = trunc(sqrt(dx² + dy²))
+angle  = trunc(atan2(dy, dx) × 256 / (2π)) &amp; 255
+
+rotation = sineTable[(counter × 8) &amp; 4095] &gt;&gt; 9
+u = (angle + rotation) &amp; 255
+v = radius
+screen[y × 320 + x] = buffer[v × 256 + u]</pre>
+<p>The demo precomputes angle and radius tables during setup. The live mapping here reads those same tables. The sine table gives a small changing angular offset; this rotates the pattern around the tunnel.</p>
+<p>A useful experiment: complete the voxel buffer, select <em>Angle lookup</em>, then move the counter. Switch back to the original colors to see how angular movement carries the texture around the center. Next, clear the mapping and reveal the screen one row at a time.</p>
+<h3>There is no extra tunnel texture</h3><p>The tunnel's texture is the newly constructed voxel buffer itself. Its dark inner boundary is the unfilled part of the height-field projection. Repeating ridges turn into the surrounding wall when read with polar coordinates.</p></section></div>
+<section class="card" id="scene"><h2>4. Add the red spiky object and green credits</h2><p>The spiky object is rendered separately by the original polygon engine. The green credits use additional palette entries and image layers. They are not generated by the voxel columns.</p>
+<div class="toolbar"><label><input id="layers" type="checkbox" checked> Show original object and credits</label><button id="show-finished">Show the finished scene</button></div>
+<div class="screen-container"><canvas id="scene-view" width="320" height="200" aria-label="Voxel tunnel composed with original polygon object and credit layers"></canvas></div>
+<p class="sub">This isolated teaching view uses full brightness, a selected counter and a warmed-up object transform. The player supplies the full music-driven palette changes and scene timing. Object animation advances when you change the counter; this page has no soundtrack.</p></section>
+<div class="flow-grid"><div><b>Read maps</b>Original height + texture bytes</div><div><b>Build columns</b>Depth samples → visible spans</div><div><b>Read in polar coordinates</b>Radius → row, angle → column</div><div><b>Compose</b>Original polygons + credit layers</div></div>
+<p class="review-note">Source anchors: original voxel routine <code>0x178BC8–0x178CD2</code>; projection table <code>0x210204</code>; working buffer <code>0x230204</code>; scene caller <code>0x178E10</code>. These controls expose a translation of the original integer algorithm using original-file resources. The production player remains separate. <a href="../index.html">Return to the player →</a></p>
+<script type="module" src="voxel-ui.mjs"></script></main></body></html>

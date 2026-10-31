@@ -1,0 +1,35 @@
+{
+  "status": "experimental; scheduling and full browser timeline pending",
+  "sources": [
+    {
+      "file": "graphics-code.mjs",
+      "source": "oracle/step08/generated-sound/graphics-code.mjs",
+      "bytes": 1006115,
+      "sha256": "a54be341159c779402867d3afefa20a4b66f20cbf8e926ab43f3aa817640b3bf"
+    },
+    {
+      "file": "le-code.bin",
+      "source": "oracle/step08/generated-sound/le-code.bin",
+      "bytes": 123552,
+      "sha256": "832e3d6f5a1e488ec5b4178e5e75e07ce8961b1be9bd9ebf853b8c1fb8b69f00"
+    },
+    {
+      "file": "le-data.bin",
+      "source": "oracle/step08/generated-sound/le-data.bin",
+      "bytes": 1906704,
+      "sha256": "73c35984345e33ac318228553644ecb780eaeb5f586bf20e4a6aa522ac5965e9"
+    },
+    {
+      "file": "AUMAX.S3M",
+      "source": "original/AUMAX.S3M",
+      "bytes": 458256,
+      "sha256": "218c252072db58f813cbcab09cf13ad0dc4ba8c416bb0881a81461e1b4a1a636"
+    },
+    {
+      "file": "PILIPS.S3M",
+      "source": "original/PILIPS.S3M",
+      "bytes": 95930,
+      "sha256": "73a0b52e4891dc8857780654a10c61b60f0d1f689da00e75e9dac7dbca611b84"
+    }
+  ]
+}

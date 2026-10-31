@@ -1,0 +1,16 @@
+{
+  "scope": "First logo scene only; attachment-relative 0\u201313 s preview, not full demo duration",
+  "refresh_hz": 70.08630289532294,
+  "initial_callback_counter": 79,
+  "callback_phase_lower": 0.39587973273938815,
+  "callback_phase_upper": 0.4821826280623327,
+  "callback_phase": 0.4390311804008604,
+  "fade_in_first_callback": 431,
+  "fade_out_first_callback": 898,
+  "preview_duration": 13,
+  "limitations": [
+    "Sub-frame timer phase chosen inside captured-count constraints, not uniquely recovered.",
+    "Music-row fade events mapped to callback counters from captured states; audible original replay remains pending.",
+    "Pre-attachment startup and following scene transition not implemented."
+  ]
+}

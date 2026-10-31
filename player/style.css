@@ -1,0 +1,318 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-color: #0c0d12;
+  --panel-bg: rgba(14, 16, 24, 0.88);
+  --accent-color: #e5a93b;
+  --accent-glow: rgba(229, 169, 59, 0.35);
+  --text-main: #f0f2f5;
+  --text-muted: #9aa0a6;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  font-family: var(--font-sans);
+  user-select: none;
+}
+
+#shell {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}
+
+#screen {
+  max-width: 100%;
+  max-height: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  background-color: #000;
+}
+
+/* Gate Splash Screen */
+#gate {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem 1.5rem 1.5rem;
+  background: radial-gradient(circle at center, #1a1c26 0%, #08090d 100%);
+  z-index: 10;
+  transition: opacity 0.4s ease, visibility 0.4s ease;
+}
+
+#gate.dismissed {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+#gate #background {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.22;
+  filter: blur(4px);
+  pointer-events: none;
+}
+
+.shade {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at center, transparent 30%, rgba(0,0,0,0.85) 100%);
+  pointer-events: none;
+}
+
+.gate-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 42rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.gate-content h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 0 0 24px var(--accent-glow);
+  margin-bottom: 0.25rem;
+}
+
+.gate-content .group {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--accent-color);
+  margin-bottom: 0.25rem;
+}
+
+.gate-content .meta {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  margin-bottom: 2rem;
+}
+
+.credits {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 1rem 1.5rem;
+  width: 100%;
+  margin-bottom: 2.5rem;
+  font-size: 0.9rem;
+}
+
+.credits dt {
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.2rem;
+}
+
+.credits dd {
+  color: var(--text-main);
+  font-weight: 500;
+}
+
+button.start {
+  padding: 0.85rem 2.8rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #000;
+  background-color: var(--accent-color);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 4px 18px var(--accent-glow);
+  transition: transform 0.15s ease, filter 0.15s ease;
+}
+
+button.start:not(:disabled):hover {
+  transform: translateY(-2px);
+  filter: brightness(1.1);
+}
+
+button.start:disabled {
+  background-color: #3e424b;
+  color: #838891;
+  box-shadow: none;
+  cursor: wait;
+}
+
+#gate footer {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 56rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+kbd {
+  display: inline-block;
+  padding: 0.15rem 0.4rem;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  background: #252834;
+  border: 1px solid #3d4253;
+  border-radius: 3px;
+  color: #fff;
+}
+
+#gate footer nav a {
+  color: var(--text-muted);
+  text-decoration: none;
+  margin-left: 1.2rem;
+}
+
+#gate footer nav a:hover {
+  color: var(--accent-color);
+}
+
+/* Playback Control HUD */
+#hud {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.6rem 1.2rem;
+  background: var(--panel-bg);
+  backdrop-filter: blur(10px);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  z-index: 20;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+#shell:hover #hud,
+#hud:focus-within {
+  opacity: 1;
+}
+
+#hud button {
+  background: #202432;
+  color: var(--text-main);
+  border: 1px solid #363d52;
+  border-radius: 4px;
+  padding: 0.4rem 0.75rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+#hud button:hover {
+  background: #31384e;
+}
+
+#timeline {
+  flex: 1;
+  accent-color: var(--accent-color);
+  cursor: pointer;
+}
+
+#time {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  min-width: 3.2rem;
+  text-align: right;
+  color: var(--text-muted);
+}
+
+.stats-switch {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  cursor: pointer;
+}
+
+/* Loading Overlay */
+#loading {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  padding: 0.4rem 0.9rem;
+  background: rgba(0, 0, 0, 0.8);
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--accent-color);
+  z-index: 30;
+  animation: pulse 1s infinite alternate;
+}
+
+@keyframes pulse {
+  from { opacity: 0.6; }
+  to { opacity: 1.0; }
+}
+
+/* Stats for Nerds Panel */
+#nerd-panel {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  padding: 0.75rem 1rem;
+  background: var(--panel-bg);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 6px;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: #a0aec0;
+  z-index: 25;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+#tracker-title {
+  color: var(--accent-color);
+  font-weight: 600;
+  margin-top: 0.2rem;
+}
+
+.tracker-scroll {
+  overflow: hidden;
+  border: 1px solid #232736;
+  border-radius: 3px;
+  background: #000;
+}
+
+#tracker {
+  display: block;
+}

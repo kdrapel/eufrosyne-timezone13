@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "baselineSha256": "24a972012595fa97f6e93c54321ab8d0854352ef6616bc71778453cfed39e1cc",
+  "spacingSeconds": 2,
+  "checkpoints": [
+    {
+      "time": 228,
+      "counter": 32,
+      "file": "credits-228.bin.gz",
+      "sha256": "207d4b889941c2e35d6956511228ee66317e85ed0129db29ddd491c3259981f6"
+    },
+    {
+      "time": 230,
+      "counter": 172,
+      "file": "credits-230.bin.gz",
+      "sha256": "3c54e8f3564aa97b7ff2f22c8fef22180c28a50ce436d3c72ce82985f38d6ac5"
+    },
+    {
+      "time": 232,
+      "counter": 312,
+      "file": "credits-232.bin.gz",
+      "sha256": "cfbdf4e0ca581c2c5db83fe09c7707d3bc2cd75986f01e44669c6aef0ec8f2d8"
+    },
+    {
+      "time": 234,
+      "counter": 452,
+      "file": "credits-234.bin.gz",
+      "sha256": "ee3318a837f731630ca06e6d2849f7fb59c7296fa6bff29319d6ef9d765c40ec"
+    },
+    {
+      "time": 236,
+      "counter": 592,
+      "file": "credits-236.bin.gz",
+      "sha256": "abe64d417b4c6729178348c2e2009e82e843b6d35dc3c66a8b37681305c67460"
+    },
+    {
+      "time": 238,
+      "counter": 732,
+      "file": "credits-238.bin.gz",
+      "sha256": "bfe278a73033539489b582fde83e9e4f324952dabcf5173f1ad6f8fb344a317d"
+    },
+    {
+      "time": 240,
+      "counter": 873,
+      "file": "credits-240.bin.gz",
+      "sha256": "fbb403729e3457e4de054146850b7cd3b348a9b0753ebfc7052d40bd2acdfee0"
+    },
+    {
+      "time": 242,
+      "counter": 1013,
+      "file": "credits-242.bin.gz",
+      "sha256": "e4a69ead19a79e111146c88185eb44e90c68dbaee66a5ba93eadce4f10670259"
+    },
+    {
+      "time": 244,
+      "counter": 1153,
+      "file": "credits-244.bin.gz",
+      "sha256": "c389534484d5f0534fe980258aa7af67d9c202917c8da6de80d8b567d659b0d5"
+    }
+  ]
+}

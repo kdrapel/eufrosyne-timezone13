@@ -1,0 +1,411 @@
+{
+  "anchors": [
+    [
+      0,
+      79
+    ],
+    [
+      1,
+      149
+    ],
+    [
+      2,
+      219
+    ],
+    [
+      3,
+      289
+    ],
+    [
+      4,
+      359
+    ],
+    [
+      5,
+      429
+    ],
+    [
+      6,
+      499
+    ],
+    [
+      7,
+      570
+    ],
+    [
+      8,
+      640
+    ],
+    [
+      9,
+      710
+    ],
+    [
+      10,
+      780
+    ],
+    [
+      11,
+      850
+    ],
+    [
+      12,
+      920
+    ],
+    [
+      13,
+      990
+    ],
+    [
+      14,
+      1060
+    ],
+    [
+      15,
+      1130
+    ],
+    [
+      16,
+      1200
+    ],
+    [
+      17,
+      1270
+    ],
+    [
+      18,
+      1340
+    ],
+    [
+      19,
+      1411
+    ],
+    [
+      20,
+      1481
+    ],
+    [
+      21,
+      1551
+    ],
+    [
+      22,
+      1621
+    ],
+    [
+      23,
+      1691
+    ],
+    [
+      24,
+      1761
+    ],
+    [
+      25,
+      1831
+    ],
+    [
+      26,
+      1901
+    ],
+    [
+      27,
+      1971
+    ],
+    [
+      28,
+      2041
+    ],
+    [
+      29,
+      2111
+    ],
+    [
+      30,
+      2181
+    ],
+    [
+      31,
+      2252
+    ],
+    [
+      32,
+      2322
+    ],
+    [
+      33,
+      2392
+    ],
+    [
+      34,
+      2462
+    ],
+    [
+      35,
+      2532
+    ],
+    [
+      36,
+      2602
+    ],
+    [
+      37,
+      2672
+    ],
+    [
+      38,
+      2742
+    ],
+    [
+      39,
+      2812
+    ],
+    [
+      40,
+      2882
+    ],
+    [
+      41,
+      2952
+    ],
+    [
+      42,
+      3023
+    ],
+    [
+      43,
+      3093
+    ],
+    [
+      44,
+      3163
+    ],
+    [
+      45,
+      3233
+    ],
+    [
+      46,
+      3303
+    ],
+    [
+      47,
+      3373
+    ],
+    [
+      48,
+      3443
+    ],
+    [
+      49,
+      3513
+    ],
+    [
+      50,
+      3583
+    ],
+    [
+      51,
+      3653
+    ]
+  ],
+  "sync": [
+    {
+      "counter": 942,
+      "order": 2,
+      "row": 0,
+      "command": 19
+    },
+    {
+      "counter": 1059,
+      "order": 2,
+      "row": 16,
+      "command": 19
+    },
+    {
+      "counter": 1176,
+      "order": 2,
+      "row": 32,
+      "command": 19
+    },
+    {
+      "counter": 1293,
+      "order": 2,
+      "row": 48,
+      "command": 19
+    },
+    {
+      "counter": 1380,
+      "order": 2,
+      "row": 60,
+      "command": 19
+    },
+    {
+      "counter": 1387,
+      "order": 2,
+      "row": 61,
+      "command": 18
+    },
+    {
+      "counter": 1395,
+      "order": 2,
+      "row": 62,
+      "command": 19
+    },
+    {
+      "counter": 1402,
+      "order": 2,
+      "row": 63,
+      "command": 18
+    },
+    {
+      "counter": 1409,
+      "order": 3,
+      "row": 0,
+      "command": 19
+    },
+    {
+      "counter": 1526,
+      "order": 3,
+      "row": 16,
+      "command": 19
+    },
+    {
+      "counter": 1643,
+      "order": 3,
+      "row": 32,
+      "command": 19
+    },
+    {
+      "counter": 1760,
+      "order": 3,
+      "row": 48,
+      "command": 19
+    },
+    {
+      "counter": 1847,
+      "order": 3,
+      "row": 60,
+      "command": 19
+    },
+    {
+      "counter": 1855,
+      "order": 3,
+      "row": 61,
+      "command": 18
+    },
+    {
+      "counter": 1862,
+      "order": 3,
+      "row": 62,
+      "command": 19
+    },
+    {
+      "counter": 1869,
+      "order": 3,
+      "row": 63,
+      "command": 18
+    },
+    {
+      "counter": 1877,
+      "order": 4,
+      "row": 0,
+      "command": 19
+    },
+    {
+      "counter": 1993,
+      "order": 4,
+      "row": 16,
+      "command": 19
+    },
+    {
+      "counter": 2110,
+      "order": 4,
+      "row": 32,
+      "command": 19
+    },
+    {
+      "counter": 2227,
+      "order": 4,
+      "row": 48,
+      "command": 19
+    },
+    {
+      "counter": 2315,
+      "order": 4,
+      "row": 60,
+      "command": 19
+    },
+    {
+      "counter": 2322,
+      "order": 4,
+      "row": 61,
+      "command": 18
+    },
+    {
+      "counter": 2329,
+      "order": 4,
+      "row": 62,
+      "command": 19
+    },
+    {
+      "counter": 2337,
+      "order": 4,
+      "row": 63,
+      "command": 18
+    },
+    {
+      "counter": 2344,
+      "order": 5,
+      "row": 0,
+      "command": 19
+    },
+    {
+      "counter": 2461,
+      "order": 5,
+      "row": 16,
+      "command": 19
+    },
+    {
+      "counter": 2577,
+      "order": 5,
+      "row": 32,
+      "command": 19
+    },
+    {
+      "counter": 2694,
+      "order": 5,
+      "row": 48,
+      "command": 19
+    },
+    {
+      "counter": 2782,
+      "order": 5,
+      "row": 60,
+      "command": 19
+    },
+    {
+      "counter": 2789,
+      "order": 5,
+      "row": 61,
+      "command": 18
+    },
+    {
+      "counter": 2797,
+      "order": 5,
+      "row": 62,
+      "command": 19
+    },
+    {
+      "counter": 2804,
+      "order": 5,
+      "row": 63,
+      "command": 18
+    }
+  ],
+  "music_rows_per_second": 9.6,
+  "music_row_phase": 9.9,
+  "s02_start_counter": 1030,
+  "fade_out_counter": 3572,
+  "scope": "Capture-calibrated graphics clock; Wxx controls from original S3M. Audio pending; sub-tick scheduling uncertain."
+}

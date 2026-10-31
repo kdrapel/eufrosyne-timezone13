@@ -1,0 +1,3349 @@
+{
+  "evidence_class": "parsed original S3M pattern events; control codes cross-checked against captured S02 sync rows",
+  "effect": "Wxx (S3M effect 23)",
+  "modules": {
+    "aumax.s3m": {
+      "file": "AUMAX.S3M",
+      "sha256": "218c252072db58f813cbcab09cf13ad0dc4ba8c416bb0881a81461e1b4a1a636",
+      "orders": 36,
+      "patterns": 23,
+      "events": [
+        {
+          "order": 2,
+          "row": 0,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 2
+        },
+        {
+          "order": 2,
+          "row": 16,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 2
+        },
+        {
+          "order": 2,
+          "row": 32,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 2
+        },
+        {
+          "order": 2,
+          "row": 48,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 2
+        },
+        {
+          "order": 2,
+          "row": 60,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 2
+        },
+        {
+          "order": 2,
+          "row": 61,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 2
+        },
+        {
+          "order": 2,
+          "row": 62,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 2
+        },
+        {
+          "order": 2,
+          "row": 63,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 2
+        },
+        {
+          "order": 3,
+          "row": 0,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 3
+        },
+        {
+          "order": 3,
+          "row": 16,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 3
+        },
+        {
+          "order": 3,
+          "row": 32,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 3
+        },
+        {
+          "order": 3,
+          "row": 48,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 3
+        },
+        {
+          "order": 3,
+          "row": 60,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 3
+        },
+        {
+          "order": 3,
+          "row": 61,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 3
+        },
+        {
+          "order": 3,
+          "row": 62,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 3
+        },
+        {
+          "order": 3,
+          "row": 63,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 3
+        },
+        {
+          "order": 4,
+          "row": 0,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 2
+        },
+        {
+          "order": 4,
+          "row": 16,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 2
+        },
+        {
+          "order": 4,
+          "row": 32,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 2
+        },
+        {
+          "order": 4,
+          "row": 48,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 2
+        },
+        {
+          "order": 4,
+          "row": 60,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 2
+        },
+        {
+          "order": 4,
+          "row": 61,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 2
+        },
+        {
+          "order": 4,
+          "row": 62,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 2
+        },
+        {
+          "order": 4,
+          "row": 63,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 2
+        },
+        {
+          "order": 5,
+          "row": 0,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 3
+        },
+        {
+          "order": 5,
+          "row": 16,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 3
+        },
+        {
+          "order": 5,
+          "row": 32,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 3
+        },
+        {
+          "order": 5,
+          "row": 48,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 3
+        },
+        {
+          "order": 5,
+          "row": 60,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 3
+        },
+        {
+          "order": 5,
+          "row": 61,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 3
+        },
+        {
+          "order": 5,
+          "row": 62,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 3
+        },
+        {
+          "order": 5,
+          "row": 63,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 3
+        },
+        {
+          "order": 8,
+          "row": 0,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 6
+        },
+        {
+          "order": 8,
+          "row": 4,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 6
+        },
+        {
+          "order": 8,
+          "row": 6,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 6
+        },
+        {
+          "order": 8,
+          "row": 8,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 16,
+          "pattern": 6
+        },
+        {
+          "order": 8,
+          "row": 32,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 6
+        },
+        {
+          "order": 8,
+          "row": 36,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 6
+        },
+        {
+          "order": 8,
+          "row": 38,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 6
+        },
+        {
+          "order": 8,
+          "row": 40,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 16,
+          "pattern": 6
+        },
+        {
+          "order": 9,
+          "row": 0,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 7
+        },
+        {
+          "order": 9,
+          "row": 0,
+          "channel": 13,
+          "effect": 23,
+          "parameter": 20,
+          "pattern": 7
+        },
+        {
+          "order": 9,
+          "row": 4,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 7
+        },
+        {
+          "order": 9,
+          "row": 6,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 7
+        },
+        {
+          "order": 9,
+          "row": 8,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 16,
+          "pattern": 7
+        },
+        {
+          "order": 9,
+          "row": 32,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 7
+        },
+        {
+          "order": 9,
+          "row": 36,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 7
+        },
+        {
+          "order": 9,
+          "row": 38,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 7
+        },
+        {
+          "order": 9,
+          "row": 40,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 16,
+          "pattern": 7
+        },
+        {
+          "order": 10,
+          "row": 0,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 6
+        },
+        {
+          "order": 10,
+          "row": 4,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 6
+        },
+        {
+          "order": 10,
+          "row": 6,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 6
+        },
+        {
+          "order": 10,
+          "row": 8,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 16,
+          "pattern": 6
+        },
+        {
+          "order": 10,
+          "row": 32,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 6
+        },
+        {
+          "order": 10,
+          "row": 36,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 6
+        },
+        {
+          "order": 10,
+          "row": 38,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 6
+        },
+        {
+          "order": 10,
+          "row": 40,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 16,
+          "pattern": 6
+        },
+        {
+          "order": 11,
+          "row": 0,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 7
+        },
+        {
+          "order": 11,
+          "row": 0,
+          "channel": 13,
+          "effect": 23,
+          "parameter": 20,
+          "pattern": 7
+        },
+        {
+          "order": 11,
+          "row": 4,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 7
+        },
+        {
+          "order": 11,
+          "row": 6,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 7
+        },
+        {
+          "order": 11,
+          "row": 8,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 16,
+          "pattern": 7
+        },
+        {
+          "order": 11,
+          "row": 32,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 7
+        },
+        {
+          "order": 11,
+          "row": 36,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 7
+        },
+        {
+          "order": 11,
+          "row": 38,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 7
+        },
+        {
+          "order": 11,
+          "row": 40,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 16,
+          "pattern": 7
+        },
+        {
+          "order": 14,
+          "row": 0,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 8
+        },
+        {
+          "order": 14,
+          "row": 3,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 8
+        },
+        {
+          "order": 14,
+          "row": 9,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 14,
+          "row": 11,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 14,
+          "row": 16,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 8
+        },
+        {
+          "order": 14,
+          "row": 19,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 8
+        },
+        {
+          "order": 14,
+          "row": 25,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 14,
+          "row": 27,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 14,
+          "row": 32,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 8
+        },
+        {
+          "order": 14,
+          "row": 35,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 8
+        },
+        {
+          "order": 14,
+          "row": 41,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 14,
+          "row": 43,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 14,
+          "row": 48,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 14,
+          "row": 50,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 14,
+          "row": 55,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 14,
+          "row": 57,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 14,
+          "row": 62,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 15,
+          "row": 0,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 9
+        },
+        {
+          "order": 15,
+          "row": 0,
+          "channel": 13,
+          "effect": 23,
+          "parameter": 20,
+          "pattern": 9
+        },
+        {
+          "order": 15,
+          "row": 3,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 9
+        },
+        {
+          "order": 15,
+          "row": 9,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 15,
+          "row": 11,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 15,
+          "row": 16,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 9
+        },
+        {
+          "order": 15,
+          "row": 19,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 9
+        },
+        {
+          "order": 15,
+          "row": 25,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 15,
+          "row": 27,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 15,
+          "row": 32,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 9
+        },
+        {
+          "order": 15,
+          "row": 35,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 9
+        },
+        {
+          "order": 15,
+          "row": 41,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 15,
+          "row": 43,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 15,
+          "row": 48,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 15,
+          "row": 50,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 15,
+          "row": 55,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 15,
+          "row": 57,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 15,
+          "row": 62,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 16,
+          "row": 0,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 8
+        },
+        {
+          "order": 16,
+          "row": 3,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 8
+        },
+        {
+          "order": 16,
+          "row": 9,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 16,
+          "row": 11,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 16,
+          "row": 16,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 8
+        },
+        {
+          "order": 16,
+          "row": 19,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 8
+        },
+        {
+          "order": 16,
+          "row": 25,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 16,
+          "row": 27,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 16,
+          "row": 32,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 8
+        },
+        {
+          "order": 16,
+          "row": 35,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 8
+        },
+        {
+          "order": 16,
+          "row": 41,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 16,
+          "row": 43,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 16,
+          "row": 48,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 16,
+          "row": 50,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 16,
+          "row": 55,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 16,
+          "row": 57,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 16,
+          "row": 62,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 17,
+          "row": 0,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 9
+        },
+        {
+          "order": 17,
+          "row": 0,
+          "channel": 13,
+          "effect": 23,
+          "parameter": 20,
+          "pattern": 9
+        },
+        {
+          "order": 17,
+          "row": 3,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 9
+        },
+        {
+          "order": 17,
+          "row": 9,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 17,
+          "row": 11,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 17,
+          "row": 16,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 9
+        },
+        {
+          "order": 17,
+          "row": 19,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 9
+        },
+        {
+          "order": 17,
+          "row": 25,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 17,
+          "row": 27,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 17,
+          "row": 32,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 9
+        },
+        {
+          "order": 17,
+          "row": 35,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 9
+        },
+        {
+          "order": 17,
+          "row": 41,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 17,
+          "row": 43,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 17,
+          "row": 48,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 17,
+          "row": 50,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 17,
+          "row": 55,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 17,
+          "row": 57,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 17,
+          "row": 62,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 18,
+          "row": 0,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 8
+        },
+        {
+          "order": 18,
+          "row": 3,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 8
+        },
+        {
+          "order": 18,
+          "row": 9,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 18,
+          "row": 11,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 18,
+          "row": 16,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 8
+        },
+        {
+          "order": 18,
+          "row": 19,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 8
+        },
+        {
+          "order": 18,
+          "row": 25,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 18,
+          "row": 27,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 18,
+          "row": 32,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 8
+        },
+        {
+          "order": 18,
+          "row": 35,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 8
+        },
+        {
+          "order": 18,
+          "row": 41,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 18,
+          "row": 43,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 18,
+          "row": 48,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 18,
+          "row": 50,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 18,
+          "row": 55,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 18,
+          "row": 57,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 18,
+          "row": 62,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 19,
+          "row": 0,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 9
+        },
+        {
+          "order": 19,
+          "row": 0,
+          "channel": 13,
+          "effect": 23,
+          "parameter": 20,
+          "pattern": 9
+        },
+        {
+          "order": 19,
+          "row": 3,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 9
+        },
+        {
+          "order": 19,
+          "row": 9,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 19,
+          "row": 11,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 19,
+          "row": 16,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 9
+        },
+        {
+          "order": 19,
+          "row": 19,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 9
+        },
+        {
+          "order": 19,
+          "row": 25,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 19,
+          "row": 27,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 19,
+          "row": 32,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 9
+        },
+        {
+          "order": 19,
+          "row": 35,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 9
+        },
+        {
+          "order": 19,
+          "row": 41,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 19,
+          "row": 43,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 19,
+          "row": 48,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 19,
+          "row": 50,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 19,
+          "row": 55,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 19,
+          "row": 57,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 19,
+          "row": 62,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 20,
+          "row": 0,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 8
+        },
+        {
+          "order": 20,
+          "row": 3,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 8
+        },
+        {
+          "order": 20,
+          "row": 9,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 20,
+          "row": 11,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 20,
+          "row": 16,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 8
+        },
+        {
+          "order": 20,
+          "row": 19,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 8
+        },
+        {
+          "order": 20,
+          "row": 25,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 20,
+          "row": 27,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 20,
+          "row": 32,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 8
+        },
+        {
+          "order": 20,
+          "row": 35,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 8
+        },
+        {
+          "order": 20,
+          "row": 41,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 20,
+          "row": 43,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 20,
+          "row": 48,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 20,
+          "row": 50,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 20,
+          "row": 55,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 20,
+          "row": 57,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 20,
+          "row": 62,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 8
+        },
+        {
+          "order": 21,
+          "row": 0,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 9
+        },
+        {
+          "order": 21,
+          "row": 0,
+          "channel": 13,
+          "effect": 23,
+          "parameter": 20,
+          "pattern": 9
+        },
+        {
+          "order": 21,
+          "row": 3,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 9
+        },
+        {
+          "order": 21,
+          "row": 9,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 21,
+          "row": 11,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 21,
+          "row": 16,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 9
+        },
+        {
+          "order": 21,
+          "row": 19,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 9
+        },
+        {
+          "order": 21,
+          "row": 25,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 21,
+          "row": 27,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 21,
+          "row": 32,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 9
+        },
+        {
+          "order": 21,
+          "row": 35,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 9
+        },
+        {
+          "order": 21,
+          "row": 41,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 21,
+          "row": 43,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 21,
+          "row": 48,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 21,
+          "row": 50,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 21,
+          "row": 55,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 21,
+          "row": 57,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 21,
+          "row": 62,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 9
+        },
+        {
+          "order": 22,
+          "row": 0,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 13
+        },
+        {
+          "order": 22,
+          "row": 3,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 13
+        },
+        {
+          "order": 22,
+          "row": 9,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 13
+        },
+        {
+          "order": 22,
+          "row": 11,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 13
+        },
+        {
+          "order": 22,
+          "row": 16,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 13
+        },
+        {
+          "order": 22,
+          "row": 19,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 13
+        },
+        {
+          "order": 22,
+          "row": 25,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 13
+        },
+        {
+          "order": 22,
+          "row": 27,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 13
+        },
+        {
+          "order": 22,
+          "row": 32,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 13
+        },
+        {
+          "order": 22,
+          "row": 35,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 13
+        },
+        {
+          "order": 22,
+          "row": 41,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 13
+        },
+        {
+          "order": 22,
+          "row": 43,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 13
+        },
+        {
+          "order": 22,
+          "row": 48,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 13
+        },
+        {
+          "order": 22,
+          "row": 50,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 13
+        },
+        {
+          "order": 22,
+          "row": 55,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 13
+        },
+        {
+          "order": 22,
+          "row": 57,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 13
+        },
+        {
+          "order": 22,
+          "row": 62,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 13
+        },
+        {
+          "order": 23,
+          "row": 0,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 14
+        },
+        {
+          "order": 23,
+          "row": 6,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 14
+        },
+        {
+          "order": 23,
+          "row": 12,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 14
+        },
+        {
+          "order": 23,
+          "row": 16,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 14
+        },
+        {
+          "order": 23,
+          "row": 22,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 14
+        },
+        {
+          "order": 23,
+          "row": 28,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 14
+        },
+        {
+          "order": 23,
+          "row": 32,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 14
+        },
+        {
+          "order": 23,
+          "row": 38,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 14
+        },
+        {
+          "order": 23,
+          "row": 44,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 14
+        },
+        {
+          "order": 23,
+          "row": 48,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 14
+        },
+        {
+          "order": 23,
+          "row": 54,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 14
+        },
+        {
+          "order": 23,
+          "row": 60,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 14
+        },
+        {
+          "order": 24,
+          "row": 0,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 15
+        },
+        {
+          "order": 24,
+          "row": 6,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 15
+        },
+        {
+          "order": 24,
+          "row": 12,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 15
+        },
+        {
+          "order": 24,
+          "row": 16,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 15
+        },
+        {
+          "order": 24,
+          "row": 22,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 15
+        },
+        {
+          "order": 24,
+          "row": 28,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 15
+        },
+        {
+          "order": 24,
+          "row": 32,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 15
+        },
+        {
+          "order": 24,
+          "row": 38,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 15
+        },
+        {
+          "order": 24,
+          "row": 44,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 15
+        },
+        {
+          "order": 24,
+          "row": 48,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 15
+        },
+        {
+          "order": 24,
+          "row": 54,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 15
+        },
+        {
+          "order": 24,
+          "row": 60,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 15
+        },
+        {
+          "order": 25,
+          "row": 0,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 16
+        },
+        {
+          "order": 25,
+          "row": 6,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 16
+        },
+        {
+          "order": 25,
+          "row": 12,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 16
+        },
+        {
+          "order": 25,
+          "row": 16,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 16
+        },
+        {
+          "order": 25,
+          "row": 22,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 16
+        },
+        {
+          "order": 25,
+          "row": 28,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 16
+        },
+        {
+          "order": 25,
+          "row": 32,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 16
+        },
+        {
+          "order": 25,
+          "row": 38,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 17,
+          "pattern": 16
+        },
+        {
+          "order": 25,
+          "row": 44,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 16
+        },
+        {
+          "order": 26,
+          "row": 0,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 17
+        },
+        {
+          "order": 26,
+          "row": 3,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 17
+        },
+        {
+          "order": 26,
+          "row": 6,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 17
+        },
+        {
+          "order": 26,
+          "row": 9,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 17
+        },
+        {
+          "order": 26,
+          "row": 12,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 17
+        },
+        {
+          "order": 26,
+          "row": 16,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 17
+        },
+        {
+          "order": 26,
+          "row": 19,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 17
+        },
+        {
+          "order": 26,
+          "row": 22,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 17
+        },
+        {
+          "order": 26,
+          "row": 25,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 17
+        },
+        {
+          "order": 26,
+          "row": 28,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 17
+        },
+        {
+          "order": 26,
+          "row": 32,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 17
+        },
+        {
+          "order": 26,
+          "row": 35,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 17
+        },
+        {
+          "order": 26,
+          "row": 38,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 17
+        },
+        {
+          "order": 26,
+          "row": 41,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 17
+        },
+        {
+          "order": 26,
+          "row": 44,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 17
+        },
+        {
+          "order": 26,
+          "row": 48,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 17
+        },
+        {
+          "order": 26,
+          "row": 51,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 17
+        },
+        {
+          "order": 26,
+          "row": 54,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 17
+        },
+        {
+          "order": 26,
+          "row": 57,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 17
+        },
+        {
+          "order": 26,
+          "row": 60,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 17
+        },
+        {
+          "order": 27,
+          "row": 0,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 18
+        },
+        {
+          "order": 27,
+          "row": 3,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 18
+        },
+        {
+          "order": 27,
+          "row": 6,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 18
+        },
+        {
+          "order": 27,
+          "row": 9,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 18
+        },
+        {
+          "order": 27,
+          "row": 12,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 18
+        },
+        {
+          "order": 27,
+          "row": 16,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 18
+        },
+        {
+          "order": 27,
+          "row": 19,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 18
+        },
+        {
+          "order": 27,
+          "row": 22,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 18
+        },
+        {
+          "order": 27,
+          "row": 25,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 18
+        },
+        {
+          "order": 27,
+          "row": 28,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 18
+        },
+        {
+          "order": 27,
+          "row": 32,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 18
+        },
+        {
+          "order": 27,
+          "row": 35,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 18
+        },
+        {
+          "order": 27,
+          "row": 38,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 18
+        },
+        {
+          "order": 27,
+          "row": 41,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 18
+        },
+        {
+          "order": 27,
+          "row": 44,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 18
+        },
+        {
+          "order": 27,
+          "row": 48,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 18
+        },
+        {
+          "order": 27,
+          "row": 51,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 18
+        },
+        {
+          "order": 27,
+          "row": 54,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 18
+        },
+        {
+          "order": 27,
+          "row": 57,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 18
+        },
+        {
+          "order": 27,
+          "row": 60,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 18
+        },
+        {
+          "order": 28,
+          "row": 0,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 17
+        },
+        {
+          "order": 28,
+          "row": 3,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 17
+        },
+        {
+          "order": 28,
+          "row": 6,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 17
+        },
+        {
+          "order": 28,
+          "row": 9,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 17
+        },
+        {
+          "order": 28,
+          "row": 12,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 17
+        },
+        {
+          "order": 28,
+          "row": 16,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 17
+        },
+        {
+          "order": 28,
+          "row": 19,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 17
+        },
+        {
+          "order": 28,
+          "row": 22,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 17
+        },
+        {
+          "order": 28,
+          "row": 25,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 17
+        },
+        {
+          "order": 28,
+          "row": 28,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 17
+        },
+        {
+          "order": 28,
+          "row": 32,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 17
+        },
+        {
+          "order": 28,
+          "row": 35,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 17
+        },
+        {
+          "order": 28,
+          "row": 38,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 17
+        },
+        {
+          "order": 28,
+          "row": 41,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 17
+        },
+        {
+          "order": 28,
+          "row": 44,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 17
+        },
+        {
+          "order": 28,
+          "row": 48,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 17
+        },
+        {
+          "order": 28,
+          "row": 51,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 17
+        },
+        {
+          "order": 28,
+          "row": 54,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 17
+        },
+        {
+          "order": 28,
+          "row": 57,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 17
+        },
+        {
+          "order": 28,
+          "row": 60,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 17
+        },
+        {
+          "order": 29,
+          "row": 0,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 18
+        },
+        {
+          "order": 29,
+          "row": 3,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 18
+        },
+        {
+          "order": 29,
+          "row": 6,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 18
+        },
+        {
+          "order": 29,
+          "row": 9,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 18
+        },
+        {
+          "order": 29,
+          "row": 12,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 18
+        },
+        {
+          "order": 29,
+          "row": 16,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 18
+        },
+        {
+          "order": 29,
+          "row": 19,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 18
+        },
+        {
+          "order": 29,
+          "row": 22,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 18
+        },
+        {
+          "order": 29,
+          "row": 25,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 18
+        },
+        {
+          "order": 29,
+          "row": 28,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 18
+        },
+        {
+          "order": 29,
+          "row": 32,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 18
+        },
+        {
+          "order": 29,
+          "row": 35,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 18
+        },
+        {
+          "order": 29,
+          "row": 38,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 18
+        },
+        {
+          "order": 29,
+          "row": 41,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 18
+        },
+        {
+          "order": 29,
+          "row": 44,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 18
+        },
+        {
+          "order": 29,
+          "row": 48,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 18
+        },
+        {
+          "order": 29,
+          "row": 51,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 18
+        },
+        {
+          "order": 29,
+          "row": 54,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 18
+        },
+        {
+          "order": 29,
+          "row": 57,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 18
+        },
+        {
+          "order": 29,
+          "row": 60,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 18
+        },
+        {
+          "order": 30,
+          "row": 0,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 21
+        },
+        {
+          "order": 30,
+          "row": 3,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 21
+        },
+        {
+          "order": 30,
+          "row": 6,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 21
+        },
+        {
+          "order": 30,
+          "row": 9,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 21
+        },
+        {
+          "order": 30,
+          "row": 12,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 21
+        },
+        {
+          "order": 30,
+          "row": 16,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 21
+        },
+        {
+          "order": 30,
+          "row": 19,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 21
+        },
+        {
+          "order": 30,
+          "row": 22,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 21
+        },
+        {
+          "order": 30,
+          "row": 25,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 21
+        },
+        {
+          "order": 30,
+          "row": 28,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 21
+        },
+        {
+          "order": 30,
+          "row": 32,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 21
+        },
+        {
+          "order": 30,
+          "row": 35,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 21
+        },
+        {
+          "order": 30,
+          "row": 38,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 21
+        },
+        {
+          "order": 30,
+          "row": 41,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 21
+        },
+        {
+          "order": 30,
+          "row": 44,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 21
+        },
+        {
+          "order": 30,
+          "row": 48,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 21
+        },
+        {
+          "order": 30,
+          "row": 51,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 21
+        },
+        {
+          "order": 30,
+          "row": 54,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 21
+        },
+        {
+          "order": 30,
+          "row": 57,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 21
+        },
+        {
+          "order": 30,
+          "row": 60,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 21
+        },
+        {
+          "order": 31,
+          "row": 0,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 20
+        },
+        {
+          "order": 31,
+          "row": 3,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 20
+        },
+        {
+          "order": 31,
+          "row": 6,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 20
+        },
+        {
+          "order": 31,
+          "row": 9,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 20
+        },
+        {
+          "order": 31,
+          "row": 12,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 20
+        },
+        {
+          "order": 31,
+          "row": 16,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 20
+        },
+        {
+          "order": 31,
+          "row": 19,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 20
+        },
+        {
+          "order": 31,
+          "row": 22,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 20
+        },
+        {
+          "order": 31,
+          "row": 25,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 20
+        },
+        {
+          "order": 31,
+          "row": 28,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 20
+        },
+        {
+          "order": 31,
+          "row": 32,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 20
+        },
+        {
+          "order": 31,
+          "row": 35,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 20
+        },
+        {
+          "order": 31,
+          "row": 38,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 20
+        },
+        {
+          "order": 31,
+          "row": 41,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 20
+        },
+        {
+          "order": 31,
+          "row": 44,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 20
+        },
+        {
+          "order": 31,
+          "row": 48,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 20
+        },
+        {
+          "order": 31,
+          "row": 51,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 20
+        },
+        {
+          "order": 31,
+          "row": 54,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 20
+        },
+        {
+          "order": 31,
+          "row": 57,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 20
+        },
+        {
+          "order": 31,
+          "row": 60,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 20
+        },
+        {
+          "order": 32,
+          "row": 0,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 19
+        },
+        {
+          "order": 32,
+          "row": 3,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 19
+        },
+        {
+          "order": 32,
+          "row": 6,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 19
+        },
+        {
+          "order": 32,
+          "row": 9,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 19
+        },
+        {
+          "order": 32,
+          "row": 12,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 19
+        },
+        {
+          "order": 32,
+          "row": 16,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 19
+        },
+        {
+          "order": 32,
+          "row": 19,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 19
+        },
+        {
+          "order": 32,
+          "row": 22,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 19
+        },
+        {
+          "order": 32,
+          "row": 25,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 19
+        },
+        {
+          "order": 32,
+          "row": 28,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 19
+        },
+        {
+          "order": 32,
+          "row": 32,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 19
+        },
+        {
+          "order": 32,
+          "row": 35,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 19
+        },
+        {
+          "order": 32,
+          "row": 38,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 19
+        },
+        {
+          "order": 32,
+          "row": 41,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 19
+        },
+        {
+          "order": 32,
+          "row": 44,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 19
+        },
+        {
+          "order": 32,
+          "row": 48,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 19
+        },
+        {
+          "order": 32,
+          "row": 51,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 19
+        },
+        {
+          "order": 32,
+          "row": 54,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 19
+        },
+        {
+          "order": 32,
+          "row": 57,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 19
+        },
+        {
+          "order": 32,
+          "row": 60,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 19
+        },
+        {
+          "order": 33,
+          "row": 0,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 22
+        },
+        {
+          "order": 33,
+          "row": 3,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 22
+        },
+        {
+          "order": 33,
+          "row": 6,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 22
+        },
+        {
+          "order": 33,
+          "row": 9,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 22
+        },
+        {
+          "order": 33,
+          "row": 12,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 22
+        },
+        {
+          "order": 33,
+          "row": 16,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 22
+        },
+        {
+          "order": 33,
+          "row": 19,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 22
+        },
+        {
+          "order": 33,
+          "row": 22,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 22
+        },
+        {
+          "order": 33,
+          "row": 25,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 22
+        },
+        {
+          "order": 33,
+          "row": 28,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 22
+        },
+        {
+          "order": 33,
+          "row": 32,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 22
+        },
+        {
+          "order": 33,
+          "row": 35,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 22
+        },
+        {
+          "order": 33,
+          "row": 38,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 22
+        },
+        {
+          "order": 33,
+          "row": 41,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 22
+        },
+        {
+          "order": 33,
+          "row": 44,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 22
+        },
+        {
+          "order": 33,
+          "row": 48,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 22
+        },
+        {
+          "order": 33,
+          "row": 51,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 22
+        },
+        {
+          "order": 33,
+          "row": 54,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 22
+        },
+        {
+          "order": 33,
+          "row": 57,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 19,
+          "pattern": 22
+        },
+        {
+          "order": 33,
+          "row": 60,
+          "channel": 12,
+          "effect": 23,
+          "parameter": 18,
+          "pattern": 22
+        }
+      ]
+    },
+    "pilips.s3m": {
+      "file": "PILIPS.S3M",
+      "sha256": "73a0b52e4891dc8857780654a10c61b60f0d1f689da00e75e9dac7dbca611b84",
+      "orders": 6,
+      "patterns": 5,
+      "events": []
+    }
+  }
+}

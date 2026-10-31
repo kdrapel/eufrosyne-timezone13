@@ -1,0 +1,117 @@
+[
+  {
+    "source_offset": 32,
+    "destination": 2703632,
+    "length": 768
+  },
+  {
+    "source_offset": 800,
+    "destination": 2768400,
+    "length": 64000
+  },
+  {
+    "source_offset": 65600,
+    "destination": 2704400,
+    "length": 64000
+  },
+  {
+    "source_offset": 130400,
+    "destination": 3236624,
+    "length": 13440
+  },
+  {
+    "source_offset": 143840,
+    "destination": 3329040,
+    "length": 13440
+  },
+  {
+    "source_offset": 157280,
+    "destination": 3250064,
+    "length": 13440
+  },
+  {
+    "source_offset": 195200,
+    "destination": 3044624,
+    "length": 64000
+  },
+  {
+    "source_offset": 194432,
+    "destination": 3042320,
+    "length": 192
+  },
+  {
+    "source_offset": 260000,
+    "destination": 3108624,
+    "length": 64000
+  },
+  {
+    "source_offset": 259232,
+    "destination": 3042512,
+    "length": 192
+  },
+  {
+    "source_offset": 324800,
+    "destination": 3172624,
+    "length": 64000
+  },
+  {
+    "source_offset": 324032,
+    "destination": 3042704,
+    "length": 192
+  },
+  {
+    "source_offset": 389600,
+    "destination": 2832400,
+    "length": 64000
+  },
+  {
+    "source_offset": 454400,
+    "destination": 2978320,
+    "length": 64000
+  },
+  {
+    "source_offset": 453632,
+    "destination": 2976784,
+    "length": 768
+  },
+  {
+    "source_offset": 519200,
+    "destination": 3473552,
+    "length": 65536
+  },
+  {
+    "source_offset": 585536,
+    "destination": 3408016,
+    "length": 65536
+  },
+  {
+    "source_offset": 584768,
+    "destination": 3044048,
+    "length": 576
+  },
+  {
+    "source_offset": 651872,
+    "destination": 3263504,
+    "length": 65536
+  },
+  {
+    "source_offset": 651104,
+    "destination": 3042896,
+    "length": 576
+  },
+  {
+    "source_offset": 718208,
+    "destination": 3342480,
+    "length": 65536
+  },
+  {
+    "source_offset": 717440,
+    "destination": 3043472,
+    "length": 576
+  },
+  {
+    "source_offset": 783776,
+    "destination": 2977552,
+    "length": 768
+  }
+]

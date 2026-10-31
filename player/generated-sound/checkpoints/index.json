@@ -1,0 +1,178 @@
+{
+  "schema": 1,
+  "spacingSeconds": 10,
+  "resources": {
+    "le-code.bin": "832e3d6f5a1e488ec5b4178e5e75e07ce8961b1be9bd9ebf853b8c1fb8b69f00",
+    "le-data.bin": "73c35984345e33ac318228553644ecb780eaeb5f586bf20e4a6aa522ac5965e9",
+    "AUMAX.S3M": "218c252072db58f813cbcab09cf13ad0dc4ba8c416bb0881a81461e1b4a1a636",
+    "PILIPS.S3M": "73a0b52e4891dc8857780654a10c61b60f0d1f689da00e75e9dac7dbca611b84"
+  },
+  "modules": {
+    "aumax": [
+      {
+        "frame": 0,
+        "file": "aumax-0.bin.gz",
+        "bytes": 439934,
+        "sha256": "b147210e0d8819aa90a966763b5362129cf4dd07bfa1ed8a9854ff8dc4cc18d4"
+      },
+      {
+        "frame": 441000,
+        "file": "aumax-10.bin.gz",
+        "bytes": 446347,
+        "sha256": "aa49bcbf86203a6f2e987843ef3d4de6c8eef1825a95e8445139f556e2b1c3c2"
+      },
+      {
+        "frame": 882000,
+        "file": "aumax-20.bin.gz",
+        "bytes": 447393,
+        "sha256": "3e02f7c94d5e817a997e6a5fdd0bdaaf5ee6c476e5e53986322905d2508f0801"
+      },
+      {
+        "frame": 1323000,
+        "file": "aumax-30.bin.gz",
+        "bytes": 446857,
+        "sha256": "cb4743c560b927aa5d5155d0de6db8f3cb57c556597dfad01eadae3c4ca16e0c"
+      },
+      {
+        "frame": 1764000,
+        "file": "aumax-40.bin.gz",
+        "bytes": 447220,
+        "sha256": "157a6d260c2f6b9511e47c733b96974430962fae5f668e21844469b79f008c72"
+      },
+      {
+        "frame": 2205000,
+        "file": "aumax-50.bin.gz",
+        "bytes": 448965,
+        "sha256": "b86740494bb8746ae3a82221a44a4d6240eb13d1de2fc893d9b6828edad298af"
+      },
+      {
+        "frame": 2646000,
+        "file": "aumax-60.bin.gz",
+        "bytes": 450349,
+        "sha256": "28f21c91a4975312592e4c7350405031e32b65785adca85ac0946582391db0f3"
+      },
+      {
+        "frame": 3087000,
+        "file": "aumax-70.bin.gz",
+        "bytes": 450519,
+        "sha256": "6370efa3550f06110a284d5c1eb064aa39ad4535a2928a8086bc53dac152f1b7"
+      },
+      {
+        "frame": 3528000,
+        "file": "aumax-80.bin.gz",
+        "bytes": 450357,
+        "sha256": "e427d559d8fa08f58fdfc63a3b1e64130ca78daf02c47a59a7e850f022cc18dc"
+      },
+      {
+        "frame": 3969000,
+        "file": "aumax-90.bin.gz",
+        "bytes": 449739,
+        "sha256": "1af7325f1bec6864f48865041a64042696adc7d300dabadfb0320f4a9822e659"
+      },
+      {
+        "frame": 4410000,
+        "file": "aumax-100.bin.gz",
+        "bytes": 450852,
+        "sha256": "2360c3c316ccd1f2b1d54f74d6b4dc5f88b804224d026f19a2b237cccba0df04"
+      },
+      {
+        "frame": 4851000,
+        "file": "aumax-110.bin.gz",
+        "bytes": 450583,
+        "sha256": "4955242e124c3690e1498f7ddea1cf634efdbd181062d1563171ab5270960e40"
+      },
+      {
+        "frame": 5292000,
+        "file": "aumax-120.bin.gz",
+        "bytes": 450896,
+        "sha256": "fc47d5be57a2e03a90158e3d0044e5e2edcc89e27b67ce00b9ed47305f32d7d9"
+      },
+      {
+        "frame": 5733000,
+        "file": "aumax-130.bin.gz",
+        "bytes": 450565,
+        "sha256": "c19c092a9d1065c4f34dac2c0883595a10a71babffe00eb446ee855bd1a8a57c"
+      },
+      {
+        "frame": 6174000,
+        "file": "aumax-140.bin.gz",
+        "bytes": 450901,
+        "sha256": "fa10479cc50a6494f17779d9c412528a651e5ab3be1999e310a020d10eaaca6b"
+      },
+      {
+        "frame": 6615000,
+        "file": "aumax-150.bin.gz",
+        "bytes": 450594,
+        "sha256": "f55f87241a2242b0dd5075141ded03445ab1a02efe291f8d968aba89dc852ac1"
+      },
+      {
+        "frame": 7056000,
+        "file": "aumax-160.bin.gz",
+        "bytes": 450121,
+        "sha256": "910a8e4552dd953e9c79acfff3dff1d5f9b565cbb9732786a2ed41ea88f49282"
+      },
+      {
+        "frame": 7497000,
+        "file": "aumax-170.bin.gz",
+        "bytes": 450754,
+        "sha256": "ea3eb385c90befb6538b4802f396e9993ea2658a1d7b280827b749cacea97906"
+      },
+      {
+        "frame": 7938000,
+        "file": "aumax-180.bin.gz",
+        "bytes": 450973,
+        "sha256": "aceb9c36ee99f8d3bbf0e2ec0b07256f191a00221272b086884e4420e6da3d67"
+      },
+      {
+        "frame": 8379000,
+        "file": "aumax-190.bin.gz",
+        "bytes": 451049,
+        "sha256": "22a29cb9b4e69a2bb8f063476ebb3aeed8618c522376b99d35e6da0616d245ce"
+      },
+      {
+        "frame": 8820000,
+        "file": "aumax-200.bin.gz",
+        "bytes": 450907,
+        "sha256": "ef0fa1e05c42d5c805f1d9d7b17be23ad4a9ab3a257ccc67c61973476861a875"
+      },
+      {
+        "frame": 9261000,
+        "file": "aumax-210.bin.gz",
+        "bytes": 450897,
+        "sha256": "a1d3b60394296a7dad15787374a673f0ab9a0b819c257a7cca939a2b679cd28d"
+      },
+      {
+        "frame": 9702000,
+        "file": "aumax-220.bin.gz",
+        "bytes": 450926,
+        "sha256": "fc25d14e994d0315959b0077e453f2e49cd47692d3876ae44cd0980e17b6a3d7"
+      },
+      {
+        "frame": 10143000,
+        "file": "aumax-230.bin.gz",
+        "bytes": 447232,
+        "sha256": "49f8a4fff1396d28734a58a835028845fc0ec5ad3338e8f15d3917412e81862b"
+      }
+    ],
+    "pilips": [
+      {
+        "frame": 0,
+        "file": "pilips-0.bin.gz",
+        "bytes": 230693,
+        "sha256": "93d921176fdb9829f40f7f37d7691b953cae06af48a24737a29885110e5443d3"
+      },
+      {
+        "frame": 441000,
+        "file": "pilips-10.bin.gz",
+        "bytes": 237755,
+        "sha256": "b8efdfcf46a2822a99230fbd2e5864ff451da2550b8ca0873423ccda753bf136"
+      },
+      {
+        "frame": 882000,
+        "file": "pilips-20.bin.gz",
+        "bytes": 237595,
+        "sha256": "326d145c3e2dcf39a57e3044f68fba264c9ba985379f50b1ffffbc289d5fc446"
+      }
+    ]
+  }
+}
